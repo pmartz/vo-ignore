@@ -1,0 +1,1 @@
+do shell script "$HOME/projects/vo-ignore/vo-ignore"
