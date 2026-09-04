@@ -43,6 +43,14 @@ VoiceOver provides a keyboard command, VO-Shift-F3, related to mouse pointer tra
 
 vo-ignore sets the option to Ignores and confirms with a verbal announcement.
 
+## Development Disclosure
+
+This utility was developed by Paul Martz with assistance from ChatGPT, including code development and debugging.
+
 ## License
 
-No license has been selected yet.
+This project is released under the MIT License.
+
+Copyright (c) 2026 Paul Martz
+
+See the LICENSE file for the full license text.
