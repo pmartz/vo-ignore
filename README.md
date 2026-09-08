@@ -15,21 +15,56 @@ It then synchronizes the preferences. Unlike directly editing the VoiceOver pref
 
 ## Building
 
-Compile the Swift source with:
+With Apple's Xcode Command Line Tools installed, build from the project directory:
 
+```sh
+make
+```
+
+The default target builds `vo-ignore` using the same command as a manual build:
+
+```sh
 swiftc -O -o vo-ignore vo-ignore.swift
+```
 
-The resulting vo-ignore executable can be run directly from Terminal.
+Run the locally built executable with `./vo-ignore`.
+
+## Installing
+
+```sh
+make install
+```
+
+This builds the executable if needed and installs:
+
+- `vo-ignore` at `/usr/local/bin/vo-ignore`, the conventional location for locally built command-line executables on macOS (see `man hier`).
+- `vo-ignore.scpt` at `~/Library/Scripts/vo-ignore.scpt`, Apple's [per-user scripts directory](https://developer.apple.com/library/archive/documentation/LanguagesUtilities/Conceptual/MacAutomationScriptingGuide/UsetheSystem-WideScriptMenu.html).
+
+Run `make install` as your normal user, without prefixing it with `sudo`. The target uses `sudo` only to create `/usr/local/bin` and install the executable, and may prompt for your administrator password. The script is installed in your own Library folder. Both destination directories are created if needed.
+
+Run the installed executable with `/usr/local/bin/vo-ignore`, or `vo-ignore` if `/usr/local/bin` is on your `PATH`.
+
+## Cleaning and uninstalling
+
+Remove the executable built in the project directory with:
+
+```sh
+make clean
+```
+
+This leaves the installed files in place. To remove both installed files:
+
+```sh
+make uninstall
+```
+
+Run this as your normal user as well; the target uses `sudo` only to remove `/usr/local/bin/vo-ignore`. Uninstalling leaves the local build and destination directories in place.
 
 ## AppleScript
 
 vo-ignore.scpt is a small AppleScript wrapper that runs the command-line utility. It can be used with VoiceOver's custom commands or other macOS automation mechanisms.
 
-The supplied script expects the executable to be located at:
-
-$HOME/projects/vo-ignore/vo-ignore
-
-Edit the script if you install the executable somewhere else.
+The supplied script invokes `/usr/local/bin/vo-ignore` by its absolute path, so it does not depend on the repository location or the AppleScript environment's `PATH`. Run `make install` before using the wrapper, then select `~/Library/Scripts/vo-ignore.scpt` in your automation setup.
 
 ## Compatibility
 
