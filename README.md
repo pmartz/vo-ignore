@@ -8,10 +8,12 @@ This is useful because the Mouse Pointer setting can sometimes spontaneously cha
 
 vo-ignore uses Apple's private ScreenReaderCore framework and SCRCUserDefaults to set these two VoiceOver preferences to false:
 
-SCRConfigurationCursorTrackingMToVO
-SCRConfigurationCursorTrackingVOToM
+- `SCRConfigurationCursorTrackingMToVO`
+- `SCRConfigurationCursorTrackingVOToM`
 
-It then synchronizes the preferences. Unlike directly editing the VoiceOver preference plist, this changes both the stored preference and VoiceOver's live state immediately.
+It then synchronizes the preferences so that live VoiceOver state matches stored state.
+
+After changing the setting, vo-ignore announces “Mouse set to ignores.” using AVFoundation. Speech uses the current assistive-technology speech settings, so the voice and rate should match VoiceOver rather than the macOS default speech voice.
 
 ## Building
 
@@ -21,13 +23,11 @@ With Apple's Xcode Command Line Tools installed, build from the project director
 make
 ```
 
-The default target builds `vo-ignore` using the same command as a manual build:
+This creates a local executable. To test it:
 
 ```sh
-swiftc -O -o vo-ignore vo-ignore.swift
+./vo-ignore
 ```
-
-Run the locally built executable with `./vo-ignore`.
 
 ## Installing
 
@@ -37,8 +37,8 @@ make install
 
 This builds the executable if needed and installs:
 
-- `vo-ignore` at `/usr/local/bin/vo-ignore`, the conventional location for locally built command-line executables on macOS (see `man hier`).
-- `vo-ignore.scpt` at `~/Library/Scripts/vo-ignore.scpt`, Apple's [per-user scripts directory](https://developer.apple.com/library/archive/documentation/LanguagesUtilities/Conceptual/MacAutomationScriptingGuide/UsetheSystem-WideScriptMenu.html).
+- `vo-ignore` at `/usr/local/bin/vo-ignore`
+- `vo-ignore.scpt` at `~/Library/Scripts/vo-ignore.scpt`
 
 Run `make install` as your normal user, without prefixing it with `sudo`. The target uses `sudo` only to create `/usr/local/bin` and install the executable, and may prompt for your administrator password. The script is installed in your own Library folder. Both destination directories are created if needed.
 

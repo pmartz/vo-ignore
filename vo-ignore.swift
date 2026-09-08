@@ -1,5 +1,6 @@
 // Copyright (c) 2026 Paul Martz
 
+import AVFoundation
 import Foundation
 import ObjectiveC.runtime
 
@@ -82,8 +83,22 @@ to: SyncFunction.self
 syncFunction(defaults, syncSelector)
 
 // Speak a short confirmation.
-let say = Process()
-say.executableURL = URL(fileURLWithPath: "/usr/bin/say")
-say.arguments = ["Mouse set to ignores."]
+class SpeechDelegate: NSObject, AVSpeechSynthesizerDelegate {
+var finished = false
 
-try? say.run()
+func speechSynthesizer(_ synthesizer: AVSpeechSynthesizer, didFinish utterance: AVSpeechUtterance) {
+finished = true
+}
+}
+
+let speechDelegate = SpeechDelegate()
+let synthesizer = AVSpeechSynthesizer()
+synthesizer.delegate = speechDelegate
+
+let utterance = AVSpeechUtterance(string: "Mouse set to ignores.")
+utterance.prefersAssistiveTechnologySettings = true
+synthesizer.speak(utterance)
+
+while !speechDelegate.finished {
+RunLoop.current.run(until: Date(timeIntervalSinceNow: 0.1))
+}
