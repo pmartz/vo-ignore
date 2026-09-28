@@ -1,0 +1,55 @@
+name: VoiceOverMouseCycle
+options:
+  bundleIdPrefix: org.example
+  deploymentTarget:
+    macOS: '26.0'
+settings:
+  base:
+    CODE_SIGN_STYLE: Automatic
+    SWIFT_VERSION: '6.0'
+    ENABLE_APP_SANDBOX: NO
+    ENABLE_HARDENED_RUNTIME: YES
+    CODE_SIGN_IDENTITY: Apple Development
+    SWIFT_STRICT_CONCURRENCY: complete
+  configs:
+    Release:
+      CODE_SIGN_INJECT_BASE_ENTITLEMENTS: NO
+targets:
+  VoiceOverMouseCycle:
+    type: application
+    platform: macOS
+    sources:
+      - Sources
+      - path: THIRD-PARTY-NOTICES.txt
+        buildPhase: resources
+    preBuildScripts:
+      - name: Precompile VoiceOver announcement
+        script: |
+          mkdir -p "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"
+          /usr/bin/osacompile -o "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AnnounceMode.scpt" "${SRCROOT}/Resources/AnnounceMode.applescript"
+        inputFiles:
+          - $(SRCROOT)/Resources/AnnounceMode.applescript
+        outputFiles:
+          - $(TARGET_BUILD_DIR)/$(UNLOCALIZED_RESOURCES_FOLDER_PATH)/AnnounceMode.scpt
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: org.example.VoiceOverMouseCycle
+        PRODUCT_NAME: VoiceOverMouseCycle
+        GENERATE_INFOPLIST_FILE: NO
+        SWIFT_OBJC_BRIDGING_HEADER: Sources/FastPreferencesC/include/VMCLightweight.h
+        HEADER_SEARCH_PATHS: '$(SRCROOT)/Sources/FastPreferencesC/include'
+        CODE_SIGN_ENTITLEMENTS: Resources/VoiceOverMouseCycle.entitlements
+      configs:
+        Debug:
+          PRODUCT_BUNDLE_IDENTIFIER: org.example.VoiceOverMouseCycle.Development
+    info:
+      path: Resources/Info.plist
+      properties:
+        CFBundleLocalizations: [zh-Hans, zh-Hant, yue, en, ja, ko, fr, de, es, pt-BR, pt-PT, it, nl, da, sv, nb, nn, fi, is, pl, cs, sk, hu, ro, bg, ru, uk, hr, sl, sq, el, tr, ca, eu, gl, lt, lv, et, ar, he, fa, ur, hi, bn, as, gu, mr, kn, ml, ta, te, pa, or, ne, kk, id, ms, vi, th]
+        CFBundleDisplayName: VoiceOverMouseCycle
+        CFBundleShortVersionString: '0.1.10'
+        CFBundleVersion: '11'
+        NSAppleEventsUsageDescription: Announce the mouse tracking mode through VoiceOver after a successful change.
+        LSBackgroundOnly: true
+        NSHighResolutionCapable: true
+        NSHumanReadableCopyright: 'Based on vo-ignore © 2026 Paul Martz, MIT License.'

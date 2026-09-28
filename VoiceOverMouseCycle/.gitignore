@@ -1,0 +1,17 @@
+/build/
+/.build/
+/.swiftpm/
+.DS_Store
+xcuserdata/
+*.xcuserstate
+*.app/
+*.dSYM/
+*.zip
+*.p12
+*.p8
+*.key
+*.mobileprovision
+*.provisionprofile
+Signing.local.xcconfig
+.env
+.env.*

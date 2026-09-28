@@ -1,0 +1,356 @@
+{
+  "zh-Hans": {
+    "title": "需要完全磁盘访问权限",
+    "message": "请在“系统设置 → 隐私与安全性 → 完全磁盘访问权限”中开启 VoiceOverMouseCycle。若列表中没有它，点加号，从“应用程序”添加 VoiceOverMouseCycle.app。开启后重新运行；本次未切换模式。",
+    "settings": "打开系统设置",
+    "cancel": "取消"
+  },
+  "zh-Hant": {
+    "title": "需要完整磁碟存取權限",
+    "message": "請在「系統設定 → 隱私權與安全性 → 完整磁碟存取權限」中開啟 VoiceOverMouseCycle。若清單中沒有它，按加號，從「應用程式」加入 VoiceOverMouseCycle.app。開啟後重新執行；本次未切換模式。",
+    "settings": "打開系統設定",
+    "cancel": "取消"
+  },
+  "yue": {
+    "title": "需要完整磁碟存取權限",
+    "message": "請在「系統設定 → 私隱與保安 → 完整磁碟存取權限」中開啟 VoiceOverMouseCycle。如果清單中沒有，按加號，從「應用程式」加入 VoiceOverMouseCycle.app。開啟後再執行；今次未切換模式。",
+    "settings": "打開系統設定",
+    "cancel": "取消"
+  },
+  "en": {
+    "title": "Full Disk Access required",
+    "message": "Enable VoiceOverMouseCycle in System Settings → Privacy & Security → Full Disk Access. If missing, click plus and add VoiceOverMouseCycle.app from Applications. Then run this app again. The mode has not changed.",
+    "settings": "Open System Settings",
+    "cancel": "Cancel"
+  },
+  "ja": {
+    "title": "フルディスクアクセスが必要です",
+    "message": "「システム設定 → プライバシーとセキュリティ → フルディスクアクセス」で VoiceOverMouseCycle を有効にしてください。表示されない場合は、追加ボタンで「アプリケーション」から VoiceOverMouseCycle.app を追加してください。その後、再実行してください。モードは変更されていません。",
+    "settings": "システム設定を開く",
+    "cancel": "キャンセル"
+  },
+  "ko": {
+    "title": "전체 디스크 접근 권한 필요",
+    "message": "시스템 설정 → 개인정보 보호 및 보안 → 전체 디스크 접근 권한에서 VoiceOverMouseCycle을 켜세요. 목록에 없으면 추가 버튼을 눌러 응용 프로그램 폴더의 VoiceOverMouseCycle.app을 추가하세요. 그런 다음 다시 실행하세요. 모드는 변경되지 않았습니다.",
+    "settings": "시스템 설정 열기",
+    "cancel": "취소"
+  },
+  "fr": {
+    "title": "Accès complet au disque requis",
+    "message": "Activez VoiceOverMouseCycle dans Réglages Système → Confidentialité et sécurité → Accès complet au disque. Si l’app est absente, cliquez sur le bouton plus et ajoutez VoiceOverMouseCycle.app depuis Applications. Relancez ensuite l’app. Le mode n’a pas changé.",
+    "settings": "Ouvrir Réglages Système",
+    "cancel": "Annuler"
+  },
+  "de": {
+    "title": "Festplattenvollzugriff erforderlich",
+    "message": "Aktiviere VoiceOverMouseCycle unter Systemeinstellungen → Datenschutz & Sicherheit → Festplattenvollzugriff. Fehlt die App, füge VoiceOverMouseCycle.app über die Plustaste aus „Programme“ hinzu. Starte die App danach erneut. Der Modus wurde nicht geändert.",
+    "settings": "Systemeinstellungen öffnen",
+    "cancel": "Abbrechen"
+  },
+  "es": {
+    "title": "Se necesita acceso total al disco",
+    "message": "Activa VoiceOverMouseCycle en Ajustes del Sistema → Privacidad y seguridad → Acceso total al disco. Si no aparece, pulsa el botón más y añade VoiceOverMouseCycle.app desde Aplicaciones. Después, vuelve a ejecutar la app. El modo no ha cambiado.",
+    "settings": "Abrir Ajustes del Sistema",
+    "cancel": "Cancelar"
+  },
+  "pt-BR": {
+    "title": "Acesso Total ao Disco necessário",
+    "message": "Ative VoiceOverMouseCycle em Ajustes do Sistema → Privacidade e Segurança → Acesso Total ao Disco. Se não aparecer, clique no botão de adição e adicione VoiceOverMouseCycle.app de Aplicativos. Depois, execute o app novamente. O modo não foi alterado.",
+    "settings": "Abrir Ajustes do Sistema",
+    "cancel": "Cancelar"
+  },
+  "pt-PT": {
+    "title": "É necessário acesso total ao disco",
+    "message": "Ative VoiceOverMouseCycle em Definições do Sistema → Privacidade e segurança → Acesso total ao disco. Se não aparecer, clique no botão de adição e adicione VoiceOverMouseCycle.app a partir de Aplicações. Depois, execute a aplicação novamente. O modo não foi alterado.",
+    "settings": "Abrir Definições do Sistema",
+    "cancel": "Cancelar"
+  },
+  "it": {
+    "title": "È necessario l’accesso completo al disco",
+    "message": "Attiva VoiceOverMouseCycle in Impostazioni di Sistema → Privacy e sicurezza → Accesso completo al disco. Se non compare, premi il pulsante più e aggiungi VoiceOverMouseCycle.app da Applicazioni. Poi avvia di nuovo l’app. La modalità non è cambiata.",
+    "settings": "Apri Impostazioni di Sistema",
+    "cancel": "Annulla"
+  },
+  "nl": {
+    "title": "Volledige schijftoegang vereist",
+    "message": "Schakel VoiceOverMouseCycle in via Systeeminstellingen → Privacy en beveiliging → Volledige schijftoegang. Ontbreekt de app, voeg dan VoiceOverMouseCycle.app uit Apps toe met de plusknop. Start de app daarna opnieuw. De modus is niet gewijzigd.",
+    "settings": "Open Systeeminstellingen",
+    "cancel": "Annuleer"
+  },
+  "da": {
+    "title": "Fuld adgang til disk kræves",
+    "message": "Slå VoiceOverMouseCycle til i Systemindstillinger → Anonymitet & sikkerhed → Fuld adgang til disk. Hvis appen mangler, skal du klikke på plus og tilføje VoiceOverMouseCycle.app fra Programmer. Start derefter appen igen. Tilstanden er ikke ændret.",
+    "settings": "Åbn Systemindstillinger",
+    "cancel": "Annuller"
+  },
+  "sv": {
+    "title": "Full skivåtkomst krävs",
+    "message": "Aktivera VoiceOverMouseCycle i Systeminställningar → Integritet och säkerhet → Full skivåtkomst. Om appen saknas, klicka på plus och lägg till VoiceOverMouseCycle.app från Appar. Kör sedan appen igen. Läget har inte ändrats.",
+    "settings": "Öppna Systeminställningar",
+    "cancel": "Avbryt"
+  },
+  "nb": {
+    "title": "Full disktilgang kreves",
+    "message": "Slå på VoiceOverMouseCycle i Systeminnstillinger → Personvern og sikkerhet → Full disktilgang. Hvis appen mangler, klikk på pluss og legg til VoiceOverMouseCycle.app fra Programmer. Start deretter appen på nytt. Modusen er ikke endret.",
+    "settings": "Åpne Systeminnstillinger",
+    "cancel": "Avbryt"
+  },
+  "nn": {
+    "title": "Full disktilgang er nødvendig",
+    "message": "Slå på VoiceOverMouseCycle i Systeminnstillingar → Personvern og tryggleik → Full disktilgang. Viss appen manglar, klikk på pluss og legg til VoiceOverMouseCycle.app frå Program. Start deretter appen på nytt. Modusen er ikkje endra.",
+    "settings": "Opne Systeminnstillingar",
+    "cancel": "Avbryt"
+  },
+  "fi": {
+    "title": "Täysi levyn käyttöoikeus tarvitaan",
+    "message": "Ota VoiceOverMouseCycle käyttöön kohdassa Järjestelmäasetukset → Tietosuoja ja suojaus → Täysi levyn käyttö. Jos appi puuttuu, lisää VoiceOverMouseCycle.app Apit-kansiosta pluspainikkeella. Käynnistä appi sitten uudelleen. Tilaa ei muutettu.",
+    "settings": "Avaa Järjestelmäasetukset",
+    "cancel": "Kumoa"
+  },
+  "is": {
+    "title": "Fullur diskaaðgangur er nauðsynlegur",
+    "message": "Virkjaðu VoiceOverMouseCycle í kerfisstillingum → persónuvernd og öryggi → fullur diskaaðgangur. Ef forritið vantar skaltu smella á plús og bæta VoiceOverMouseCycle.app við úr forritamöppunni. Ræstu það síðan aftur. Stillingunni var ekki breytt.",
+    "settings": "Opna kerfisstillingar",
+    "cancel": "Hætta við"
+  },
+  "pl": {
+    "title": "Wymagany pełny dostęp do dysku",
+    "message": "Włącz VoiceOverMouseCycle w Ustawieniach systemowych → Prywatność i ochrona → Pełny dostęp do dysku. Jeśli aplikacji nie ma na liście, kliknij plus i dodaj VoiceOverMouseCycle.app z folderu Aplikacje. Następnie uruchom ją ponownie. Tryb nie został zmieniony.",
+    "settings": "Otwórz Ustawienia systemowe",
+    "cancel": "Anuluj"
+  },
+  "cs": {
+    "title": "Je vyžadován úplný přístup k disku",
+    "message": "Zapněte VoiceOverMouseCycle v Nastavení systému → Soukromí a zabezpečení → Úplný přístup k disku. Pokud chybí, klikněte na plus a přidejte VoiceOverMouseCycle.app ze složky Aplikace. Potom aplikaci spusťte znovu. Režim se nezměnil.",
+    "settings": "Otevřít Nastavení systému",
+    "cancel": "Zrušit"
+  },
+  "sk": {
+    "title": "Vyžaduje sa úplný prístup k disku",
+    "message": "Zapnite VoiceOverMouseCycle v Systémových nastaveniach → Súkromie a bezpečnosť → Úplný prístup k disku. Ak chýba, kliknite na plus a pridajte VoiceOverMouseCycle.app z priečinka Aplikácie. Potom apku spustite znova. Režim sa nezmenil.",
+    "settings": "Otvoriť Systémové nastavenia",
+    "cancel": "Zrušiť"
+  },
+  "hu": {
+    "title": "Teljes lemezhozzáférés szükséges",
+    "message": "Engedélyezze a VoiceOverMouseCycle alkalmazást itt: Rendszerbeállítások → Adatvédelem és biztonság → Teljes lemezhozzáférés. Ha nem szerepel a listán, a plusz gombbal adja hozzá a VoiceOverMouseCycle.app fájlt az Alkalmazások mappából. Ezután indítsa újra. A mód nem változott.",
+    "settings": "Rendszerbeállítások megnyitása",
+    "cancel": "Mégse"
+  },
+  "ro": {
+    "title": "Este necesar accesul complet la disc",
+    "message": "Activați VoiceOverMouseCycle în Configurări sistem → Intimitate și securitate → Acces complet la disc. Dacă lipsește, apăsați plus și adăugați VoiceOverMouseCycle.app din Aplicații. Apoi rulați din nou aplicația. Modul nu s-a schimbat.",
+    "settings": "Deschide Configurări sistem",
+    "cancel": "Anulează"
+  },
+  "bg": {
+    "title": "Необходим е пълен достъп до диска",
+    "message": "Включете VoiceOverMouseCycle в системните настройки → поверителност и сигурност → пълен достъп до диска. Ако липсва, натиснете плюс и добавете VoiceOverMouseCycle.app от папката с приложения. След това стартирайте отново. Режимът не е променен.",
+    "settings": "Отвори системните настройки",
+    "cancel": "Отказ"
+  },
+  "ru": {
+    "title": "Требуется полный доступ к диску",
+    "message": "Включите VoiceOverMouseCycle в Системных настройках → Конфиденциальность и безопасность → Полный доступ к диску. Если приложения нет, нажмите плюс и добавьте VoiceOverMouseCycle.app из папки «Программы». Затем запустите его снова. Режим не изменён.",
+    "settings": "Открыть Системные настройки",
+    "cancel": "Отмена"
+  },
+  "uk": {
+    "title": "Потрібен повний доступ до диска",
+    "message": "Увімкніть VoiceOverMouseCycle у Системних параметрах → Приватність і безпека → Повний доступ до диска. Якщо програми немає, натисніть плюс і додайте VoiceOverMouseCycle.app з папки «Програми». Потім запустіть її знову. Режим не змінено.",
+    "settings": "Відкрити Системні параметри",
+    "cancel": "Скасувати"
+  },
+  "hr": {
+    "title": "Potreban je potpuni pristup disku",
+    "message": "Uključite VoiceOverMouseCycle u Postavkama sustava → Privatnost i sigurnost → Potpuni pristup disku. Ako ga nema, kliknite plus i dodajte VoiceOverMouseCycle.app iz mape Aplikacije. Zatim ponovno pokrenite aplikaciju. Način rada nije promijenjen.",
+    "settings": "Otvori Postavke sustava",
+    "cancel": "Odustani"
+  },
+  "sl": {
+    "title": "Potreben je popoln dostop do diska",
+    "message": "Omogočite VoiceOverMouseCycle v sistemskih nastavitvah → zasebnost in varnost → popoln dostop do diska. Če ga ni, kliknite plus in dodajte VoiceOverMouseCycle.app iz mape Aplikacije. Nato aplikacijo znova zaženite. Način ni spremenjen.",
+    "settings": "Odpri sistemske nastavitve",
+    "cancel": "Prekliči"
+  },
+  "sq": {
+    "title": "Nevojitet qasje e plotë në disk",
+    "message": "Aktivizoni VoiceOverMouseCycle te cilësimet e sistemit → privatësia dhe siguria → qasja e plotë në disk. Nëse mungon, shtypni plus dhe shtoni VoiceOverMouseCycle.app nga dosja e aplikacioneve. Pastaj hapeni sërish. Modaliteti nuk ka ndryshuar.",
+    "settings": "Hap cilësimet e sistemit",
+    "cancel": "Anulo"
+  },
+  "el": {
+    "title": "Απαιτείται πλήρης πρόσβαση στον δίσκο",
+    "message": "Ενεργοποιήστε το VoiceOverMouseCycle στις Ρυθμίσεις συστήματος → Απόρρητο και ασφάλεια → Πλήρης πρόσβαση στον δίσκο. Αν λείπει, πατήστε συν και προσθέστε το VoiceOverMouseCycle.app από τις Εφαρμογές. Έπειτα εκτελέστε το ξανά. Η λειτουργία δεν άλλαξε.",
+    "settings": "Άνοιγμα Ρυθμίσεων συστήματος",
+    "cancel": "Ακύρωση"
+  },
+  "tr": {
+    "title": "Tam Disk Erişimi gerekiyor",
+    "message": "Sistem Ayarları → Gizlilik ve Güvenlik → Tam Disk Erişimi bölümünde VoiceOverMouseCycle uygulamasını etkinleştirin. Listede yoksa artı düğmesiyle Uygulamalar klasöründeki VoiceOverMouseCycle.app dosyasını ekleyin. Ardından yeniden çalıştırın. Mod değiştirilmedi.",
+    "settings": "Sistem Ayarları’nı Aç",
+    "cancel": "Vazgeç"
+  },
+  "ca": {
+    "title": "Cal accés complet al disc",
+    "message": "Activa VoiceOverMouseCycle a Configuració del Sistema → Privacitat i seguretat → Accés complet al disc. Si no hi apareix, prem el botó més i afegeix VoiceOverMouseCycle.app des d’Aplicacions. Després, torna a executar l’app. El mode no ha canviat.",
+    "settings": "Obre Configuració del Sistema",
+    "cancel": "Cancel·la"
+  },
+  "eu": {
+    "title": "Diskorako sarbide osoa behar da",
+    "message": "Gaitu VoiceOverMouseCycle sistemaren ezarpenetan → pribatutasuna eta segurtasuna → diskorako sarbide osoa. Zerrendan ez badago, sakatu plus botoia eta gehitu VoiceOverMouseCycle.app aplikazioen karpetatik. Ondoren, exekutatu berriro. Modua ez da aldatu.",
+    "settings": "Ireki sistemaren ezarpenak",
+    "cancel": "Utzi"
+  },
+  "gl": {
+    "title": "Requírese acceso completo ao disco",
+    "message": "Activa VoiceOverMouseCycle na configuración do sistema → privacidade e seguridade → acceso completo ao disco. Se non aparece, preme o botón máis e engade VoiceOverMouseCycle.app desde Aplicacións. Despois, execútaa de novo. O modo non cambiou.",
+    "settings": "Abrir configuración do sistema",
+    "cancel": "Cancelar"
+  },
+  "lt": {
+    "title": "Reikalinga visa prieiga prie disko",
+    "message": "Įjunkite VoiceOverMouseCycle sistemos nustatymuose → privatumas ir sauga → visa prieiga prie disko. Jei programos nėra, spustelėkite pliusą ir pridėkite VoiceOverMouseCycle.app iš programų aplanko. Tada paleiskite iš naujo. Režimas nepakeistas.",
+    "settings": "Atverti sistemos nustatymus",
+    "cancel": "Atšaukti"
+  },
+  "lv": {
+    "title": "Nepieciešama pilna piekļuve diskam",
+    "message": "Ieslēdziet VoiceOverMouseCycle sistēmas iestatījumos → privātums un drošība → pilna piekļuve diskam. Ja tās nav, nospiediet plusu un pievienojiet VoiceOverMouseCycle.app no programmu mapes. Pēc tam palaidiet vēlreiz. Režīms nav mainīts.",
+    "settings": "Atvērt sistēmas iestatījumus",
+    "cancel": "Atcelt"
+  },
+  "et": {
+    "title": "Vaja on täielikku kettajuurdepääsu",
+    "message": "Lülitage VoiceOverMouseCycle sisse süsteemiseadetes → privaatsus ja turvalisus → täielik kettajuurdepääs. Kui rakendust pole loendis, lisage VoiceOverMouseCycle.app rakenduste kaustast plussnupuga. Seejärel käivitage uuesti. Režiimi pole muudetud.",
+    "settings": "Ava süsteemiseaded",
+    "cancel": "Loobu"
+  },
+  "ar": {
+    "title": "يلزم الوصول الكامل إلى القرص",
+    "message": "فعّل VoiceOverMouseCycle في إعدادات النظام ← الخصوصية والأمن ← الوصول الكامل إلى القرص. إذا لم يظهر، اضغط زر الإضافة وأضف VoiceOverMouseCycle.app من مجلد التطبيقات. ثم شغّل التطبيق مجددًا. لم يتغير الوضع.",
+    "settings": "فتح إعدادات النظام",
+    "cancel": "إلغاء"
+  },
+  "he": {
+    "title": "נדרשת גישה מלאה לכונן",
+    "message": "יש להפעיל את VoiceOverMouseCycle בהגדרות המערכת ← פרטיות ואבטחה ← גישה מלאה לכונן. אם היישום אינו מופיע, יש ללחוץ על פלוס ולהוסיף את VoiceOverMouseCycle.app מתיקיית היישומים. לאחר מכן יש להפעילו שוב. המצב לא השתנה.",
+    "settings": "פתיחת הגדרות המערכת",
+    "cancel": "ביטול"
+  },
+  "fa": {
+    "title": "دسترسی کامل به دیسک لازم است",
+    "message": "در تنظیمات سیستم ← حریم خصوصی و امنیت ← دسترسی کامل به دیسک، VoiceOverMouseCycle را فعال کنید. اگر در فهرست نیست، با دکمهٔ افزودن، VoiceOverMouseCycle.app را از پوشهٔ برنامه‌ها اضافه کنید. سپس برنامه را دوباره اجرا کنید. حالت تغییر نکرده است.",
+    "settings": "باز کردن تنظیمات سیستم",
+    "cancel": "لغو"
+  },
+  "ur": {
+    "title": "ڈسک تک مکمل رسائی درکار ہے",
+    "message": "سسٹم کی ترتیبات ← رازداری اور سیکیورٹی ← ڈسک تک مکمل رسائی میں VoiceOverMouseCycle کو فعال کریں۔ اگر فہرست میں نہیں ہے تو جمع کا بٹن دبائیں اور ایپلی کیشنز فولڈر سے VoiceOverMouseCycle.app شامل کریں۔ پھر ایپ دوبارہ چلائیں۔ موڈ تبدیل نہیں ہوا۔",
+    "settings": "سسٹم کی ترتیبات کھولیں",
+    "cancel": "منسوخ کریں"
+  },
+  "hi": {
+    "title": "डिस्क का पूरा ऐक्सेस चाहिए",
+    "message": "सिस्टम सेटिंग्ज़ → गोपनीयता और सुरक्षा → डिस्क का पूरा ऐक्सेस में VoiceOverMouseCycle चालू करें। अगर सूची में नहीं है, तो प्लस दबाकर ऐप्लिकेशन फ़ोल्डर से VoiceOverMouseCycle.app जोड़ें। फिर ऐप दोबारा चलाएँ। मोड नहीं बदला है।",
+    "settings": "सिस्टम सेटिंग्ज़ खोलें",
+    "cancel": "रद्द करें"
+  },
+  "bn": {
+    "title": "ডিস্কে সম্পূর্ণ অ্যাক্সেস প্রয়োজন",
+    "message": "সিস্টেম সেটিংস → গোপনীয়তা ও নিরাপত্তা → ডিস্কে সম্পূর্ণ অ্যাক্সেসে VoiceOverMouseCycle চালু করুন। তালিকায় না থাকলে যোগ বোতাম দিয়ে অ্যাপ্লিকেশন ফোল্ডার থেকে VoiceOverMouseCycle.app যোগ করুন। তারপর অ্যাপটি আবার চালান। মোড পরিবর্তিত হয়নি।",
+    "settings": "সিস্টেম সেটিংস খুলুন",
+    "cancel": "বাতিল"
+  },
+  "as": {
+    "title": "ডিস্কলৈ সম্পূৰ্ণ প্ৰৱেশৰ অনুমতি লাগে",
+    "message": "চিষ্টেম ছেটিংছ → গোপনীয়তা আৰু সুৰক্ষা → ডিস্কলৈ সম্পূৰ্ণ প্ৰৱেশত VoiceOverMouseCycle সক্ৰিয় কৰক। তালিকাত নাথাকিলে যোগ বুটামেৰে এপ্লিকেচন ফ'ল্ডাৰৰ পৰা VoiceOverMouseCycle.app যোগ কৰক। তাৰ পিছত পুনৰ চলাওক। মোড সলনি হোৱা নাই।",
+    "settings": "চিষ্টেম ছেটিংছ খোলক",
+    "cancel": "বাতিল কৰক"
+  },
+  "gu": {
+    "title": "ડિસ્કની સંપૂર્ણ ઍક્સેસ જરૂરી છે",
+    "message": "સિસ્ટમ સેટિંગ્સ → ગોપનીયતા અને સુરક્ષા → ડિસ્કની સંપૂર્ણ ઍક્સેસમાં VoiceOverMouseCycle ચાલુ કરો. યાદીમાં ન હોય તો વત્તા બટનથી ઍપ્લિકેશન્સ ફોલ્ડરમાંથી VoiceOverMouseCycle.app ઉમેરો. પછી ઍપ ફરી ચલાવો. મોડ બદલાયો નથી.",
+    "settings": "સિસ્ટમ સેટિંગ્સ ખોલો",
+    "cancel": "રદ કરો"
+  },
+  "mr": {
+    "title": "डिस्कचा पूर्ण ॲक्सेस आवश्यक आहे",
+    "message": "सिस्टम सेटिंग्ज → गोपनीयता आणि सुरक्षितता → डिस्कचा पूर्ण ॲक्सेस येथे VoiceOverMouseCycle सुरू करा. यादीत नसल्यास अधिक बटण वापरून ॲप्लिकेशन्स फोल्डरमधून VoiceOverMouseCycle.app जोडा. नंतर ॲप पुन्हा चालवा. मोड बदललेला नाही.",
+    "settings": "सिस्टम सेटिंग्ज उघडा",
+    "cancel": "रद्द करा"
+  },
+  "kn": {
+    "title": "ಡಿಸ್ಕ್‌ಗೆ ಪೂರ್ಣ ಪ್ರವೇಶ ಬೇಕಾಗಿದೆ",
+    "message": "ಸಿಸ್ಟಮ್ ಸೆಟ್ಟಿಂಗ್‌ಗಳು → ಗೌಪ್ಯತೆ ಮತ್ತು ಸುರಕ್ಷತೆ → ಡಿಸ್ಕ್‌ಗೆ ಪೂರ್ಣ ಪ್ರವೇಶದಲ್ಲಿ VoiceOverMouseCycle ಸಕ್ರಿಯಗೊಳಿಸಿ. ಪಟ್ಟಿಯಲ್ಲಿ ಇಲ್ಲದಿದ್ದರೆ, ಪ್ಲಸ್ ಬಟನ್ ಮೂಲಕ ಅಪ್ಲಿಕೇಶನ್‌ಗಳ ಫೋಲ್ಡರ್‌ನಿಂದ VoiceOverMouseCycle.app ಸೇರಿಸಿ. ನಂತರ ಮತ್ತೆ ಚಲಾಯಿಸಿ. ಮೋಡ್ ಬದಲಾಗಿಲ್ಲ.",
+    "settings": "ಸಿಸ್ಟಮ್ ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ತೆರೆಯಿರಿ",
+    "cancel": "ರದ್ದುಮಾಡಿ"
+  },
+  "ml": {
+    "title": "ഡിസ്കിലേക്കുള്ള പൂർണ്ണ പ്രവേശനം വേണം",
+    "message": "സിസ്റ്റം ക്രമീകരണങ്ങൾ → സ്വകാര്യതയും സുരക്ഷയും → പൂർണ്ണ ഡിസ്ക് പ്രവേശനം എന്നതിൽ VoiceOverMouseCycle പ്രവർത്തനക്ഷമമാക്കുക. പട്ടികയിൽ ഇല്ലെങ്കിൽ, പ്ലസ് ബട്ടൺ ഉപയോഗിച്ച് ആപ്ലിക്കേഷൻസ് ഫോൾഡറിൽ നിന്ന് VoiceOverMouseCycle.app ചേർക്കുക. തുടർന്ന് വീണ്ടും പ്രവർത്തിപ്പിക്കുക. മോഡ് മാറിയിട്ടില്ല.",
+    "settings": "സിസ്റ്റം ക്രമീകരണങ്ങൾ തുറക്കുക",
+    "cancel": "റദ്ദാക്കുക"
+  },
+  "ta": {
+    "title": "முழு வட்டு அணுகல் தேவை",
+    "message": "கணினி அமைப்புகள் → தனியுரிமை மற்றும் பாதுகாப்பு → முழு வட்டு அணுகலில் VoiceOverMouseCycle-ஐ இயக்கவும். பட்டியலில் இல்லையெனில், கூட்டல் பொத்தான் மூலம் பயன்பாடுகள் கோப்புறையிலிருந்து VoiceOverMouseCycle.app-ஐ சேர்க்கவும். பின்னர் மீண்டும் இயக்கவும். பயன்முறை மாறவில்லை.",
+    "settings": "கணினி அமைப்புகளைத் திற",
+    "cancel": "ரத்துசெய்"
+  },
+  "te": {
+    "title": "పూర్తి డిస్క్ యాక్సెస్ అవసరం",
+    "message": "సిస్టమ్ సెట్టింగ్‌లు → గోప్యత మరియు భద్రత → పూర్తి డిస్క్ యాక్సెస్‌లో VoiceOverMouseCycle ప్రారంభించండి. జాబితాలో లేకపోతే, ప్లస్ బటన్‌తో అప్లికేషన్‌ల ఫోల్డర్ నుండి VoiceOverMouseCycle.app జోడించండి. తర్వాత మళ్లీ అమలు చేయండి. మోడ్ మారలేదు.",
+    "settings": "సిస్టమ్ సెట్టింగ్‌లను తెరవండి",
+    "cancel": "రద్దు చేయండి"
+  },
+  "pa": {
+    "title": "ਡਿਸਕ ਤੱਕ ਪੂਰੀ ਪਹੁੰਚ ਦੀ ਲੋੜ ਹੈ",
+    "message": "ਸਿਸਟਮ ਸੈਟਿੰਗਾਂ → ਪਰਦੇਦਾਰੀ ਅਤੇ ਸੁਰੱਖਿਆ → ਡਿਸਕ ਤੱਕ ਪੂਰੀ ਪਹੁੰਚ ਵਿੱਚ VoiceOverMouseCycle ਚਾਲੂ ਕਰੋ। ਜੇ ਸੂਚੀ ਵਿੱਚ ਨਹੀਂ ਹੈ, ਤਾਂ ਪਲੱਸ ਬਟਨ ਨਾਲ ਐਪਲੀਕੇਸ਼ਨਾਂ ਫੋਲਡਰ ਤੋਂ VoiceOverMouseCycle.app ਜੋੜੋ। ਫਿਰ ਐਪ ਦੁਬਾਰਾ ਚਲਾਓ। ਮੋਡ ਨਹੀਂ ਬਦਲਿਆ।",
+    "settings": "ਸਿਸਟਮ ਸੈਟਿੰਗਾਂ ਖੋਲ੍ਹੋ",
+    "cancel": "ਰੱਦ ਕਰੋ"
+  },
+  "or": {
+    "title": "ଡିସ୍କକୁ ସମ୍ପୂର୍ଣ୍ଣ ପ୍ରବେଶ ଆବଶ୍ୟକ",
+    "message": "ସିଷ୍ଟମ ସେଟିଂସ୍ → ଗୋପନୀୟତା ଓ ସୁରକ୍ଷା → ଡିସ୍କକୁ ସମ୍ପୂର୍ଣ୍ଣ ପ୍ରବେଶରେ VoiceOverMouseCycle ସକ୍ରିୟ କରନ୍ତୁ। ତାଲିକାରେ ନଥିଲେ, ଯୋଗ ବଟନ୍‌ରେ ଆପ୍ଲିକେସନ୍ ଫୋଲ୍ଡରରୁ VoiceOverMouseCycle.app ଯୋଡ଼ନ୍ତୁ। ତାପରେ ପୁଣି ଚଲାନ୍ତୁ। ମୋଡ୍ ବଦଳିନାହିଁ।",
+    "settings": "ସିଷ୍ଟମ ସେଟିଂସ୍ ଖୋଲନ୍ତୁ",
+    "cancel": "ବାତିଲ କରନ୍ତୁ"
+  },
+  "ne": {
+    "title": "डिस्कमा पूर्ण पहुँच आवश्यक छ",
+    "message": "प्रणाली सेटिङहरू → गोपनीयता र सुरक्षा → डिस्कमा पूर्ण पहुँचमा VoiceOverMouseCycle सक्षम गर्नुहोस्। सूचीमा नभए, प्लस बटनबाट एप्लिकेसन्स फोल्डरको VoiceOverMouseCycle.app थप्नुहोस्। त्यसपछि फेरि चलाउनुहोस्। मोड परिवर्तन भएको छैन।",
+    "settings": "प्रणाली सेटिङहरू खोल्नुहोस्",
+    "cancel": "रद्द गर्नुहोस्"
+  },
+  "kk": {
+    "title": "Дискіге толық қол жеткізу қажет",
+    "message": "Жүйе параметрлері → Құпиялылық және қауіпсіздік → Дискіге толық қол жеткізу бөлімінде VoiceOverMouseCycle қолданбасын қосыңыз. Тізімде болмаса, қосу түймесімен қолданбалар қалтасынан VoiceOverMouseCycle.app файлын қосыңыз. Содан кейін қайта іске қосыңыз. Режим өзгерген жоқ.",
+    "settings": "Жүйе параметрлерін ашу",
+    "cancel": "Болдырмау"
+  },
+  "id": {
+    "title": "Akses Disk Penuh diperlukan",
+    "message": "Aktifkan VoiceOverMouseCycle di Pengaturan Sistem → Privasi & Keamanan → Akses Disk Penuh. Jika tidak ada, klik tombol tambah dan tambahkan VoiceOverMouseCycle.app dari Aplikasi. Lalu jalankan kembali app ini. Mode belum berubah.",
+    "settings": "Buka Pengaturan Sistem",
+    "cancel": "Batal"
+  },
+  "ms": {
+    "title": "Akses Cakera Penuh diperlukan",
+    "message": "Aktifkan VoiceOverMouseCycle dalam Seting Sistem → Privasi & Keselamatan → Akses Cakera Penuh. Jika tiada, klik butang tambah dan tambahkan VoiceOverMouseCycle.app daripada Aplikasi. Kemudian jalankan semula app ini. Mod belum berubah.",
+    "settings": "Buka Seting Sistem",
+    "cancel": "Batal"
+  },
+  "vi": {
+    "title": "Cần quyền truy cập toàn bộ ổ đĩa",
+    "message": "Bật VoiceOverMouseCycle trong Cài đặt hệ thống → Quyền riêng tư & Bảo mật → Truy cập toàn bộ ổ đĩa. Nếu chưa có, bấm nút cộng và thêm VoiceOverMouseCycle.app từ Ứng dụng. Sau đó chạy lại ứng dụng. Chế độ chưa thay đổi.",
+    "settings": "Mở Cài đặt hệ thống",
+    "cancel": "Hủy"
+  },
+  "th": {
+    "title": "ต้องมีสิทธิ์เข้าถึงดิสก์ทั้งหมด",
+    "message": "เปิดใช้ VoiceOverMouseCycle ในการตั้งค่าระบบ → ความเป็นส่วนตัวและความปลอดภัย → การเข้าถึงดิสก์ทั้งหมด หากไม่อยู่ในรายการ ให้กดปุ่มบวกแล้วเพิ่ม VoiceOverMouseCycle.app จากแอปพลิเคชัน จากนั้นเปิดแอปอีกครั้ง โหมดยังไม่เปลี่ยน",
+    "settings": "เปิดการตั้งค่าระบบ",
+    "cancel": "ยกเลิก"
+  }
+}
