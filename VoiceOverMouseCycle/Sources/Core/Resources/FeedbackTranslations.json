@@ -1,0 +1,356 @@
+{
+  "zh-Hans": {
+    "name": "简体中文",
+    "ignore": "不跟随",
+    "mouseFollowsVoiceOver": "鼠标跟旁白",
+    "voiceOverFollowsMouse": "旁白跟鼠标"
+  },
+  "zh-Hant": {
+    "name": "繁體中文",
+    "ignore": "不跟隨",
+    "mouseFollowsVoiceOver": "滑鼠跟旁白",
+    "voiceOverFollowsMouse": "旁白跟滑鼠"
+  },
+  "yue": {
+    "name": "廣東話",
+    "ignore": "唔跟隨",
+    "mouseFollowsVoiceOver": "滑鼠跟住旁白",
+    "voiceOverFollowsMouse": "旁白跟住滑鼠"
+  },
+  "en": {
+    "name": "English",
+    "ignore": "No tracking",
+    "mouseFollowsVoiceOver": "Mouse follows VoiceOver",
+    "voiceOverFollowsMouse": "VoiceOver follows mouse"
+  },
+  "ja": {
+    "name": "日本語",
+    "ignore": "追従なし",
+    "mouseFollowsVoiceOver": "マウスがVoiceOverに追従",
+    "voiceOverFollowsMouse": "VoiceOverがマウスに追従"
+  },
+  "ko": {
+    "name": "한국어",
+    "ignore": "추적 안 함",
+    "mouseFollowsVoiceOver": "마우스가 VoiceOver를 따라감",
+    "voiceOverFollowsMouse": "VoiceOver가 마우스를 따라감"
+  },
+  "fr": {
+    "name": "Français",
+    "ignore": "Aucun suivi",
+    "mouseFollowsVoiceOver": "La souris suit VoiceOver",
+    "voiceOverFollowsMouse": "VoiceOver suit la souris"
+  },
+  "de": {
+    "name": "Deutsch",
+    "ignore": "Keine Verfolgung",
+    "mouseFollowsVoiceOver": "Maus folgt VoiceOver",
+    "voiceOverFollowsMouse": "VoiceOver folgt der Maus"
+  },
+  "es": {
+    "name": "Español",
+    "ignore": "Sin seguimiento",
+    "mouseFollowsVoiceOver": "El ratón sigue a VoiceOver",
+    "voiceOverFollowsMouse": "VoiceOver sigue al ratón"
+  },
+  "pt-BR": {
+    "name": "Português do Brasil",
+    "ignore": "Sem acompanhamento",
+    "mouseFollowsVoiceOver": "O mouse segue o VoiceOver",
+    "voiceOverFollowsMouse": "O VoiceOver segue o mouse"
+  },
+  "pt-PT": {
+    "name": "Português de Portugal",
+    "ignore": "Sem seguimento",
+    "mouseFollowsVoiceOver": "O rato segue o VoiceOver",
+    "voiceOverFollowsMouse": "O VoiceOver segue o rato"
+  },
+  "it": {
+    "name": "Italiano",
+    "ignore": "Nessun inseguimento",
+    "mouseFollowsVoiceOver": "Il mouse segue VoiceOver",
+    "voiceOverFollowsMouse": "VoiceOver segue il mouse"
+  },
+  "nl": {
+    "name": "Nederlands",
+    "ignore": "Niet volgen",
+    "mouseFollowsVoiceOver": "Muis volgt VoiceOver",
+    "voiceOverFollowsMouse": "VoiceOver volgt de muis"
+  },
+  "da": {
+    "name": "Dansk",
+    "ignore": "Ingen sporing",
+    "mouseFollowsVoiceOver": "Musen følger VoiceOver",
+    "voiceOverFollowsMouse": "VoiceOver følger musen"
+  },
+  "sv": {
+    "name": "Svenska",
+    "ignore": "Ingen följning",
+    "mouseFollowsVoiceOver": "Musen följer VoiceOver",
+    "voiceOverFollowsMouse": "VoiceOver följer musen"
+  },
+  "nb": {
+    "name": "Norsk bokmål",
+    "ignore": "Ingen følging",
+    "mouseFollowsVoiceOver": "Musen følger VoiceOver",
+    "voiceOverFollowsMouse": "VoiceOver følger musen"
+  },
+  "nn": {
+    "name": "Norsk nynorsk",
+    "ignore": "Inga følgjing",
+    "mouseFollowsVoiceOver": "Musa følgjer VoiceOver",
+    "voiceOverFollowsMouse": "VoiceOver følgjer musa"
+  },
+  "fi": {
+    "name": "Suomi",
+    "ignore": "Ei seurantaa",
+    "mouseFollowsVoiceOver": "Hiiri seuraa VoiceOveria",
+    "voiceOverFollowsMouse": "VoiceOver seuraa hiirtä"
+  },
+  "is": {
+    "name": "Íslenska",
+    "ignore": "Engin eftirfylgni",
+    "mouseFollowsVoiceOver": "Músin fylgir VoiceOver",
+    "voiceOverFollowsMouse": "VoiceOver fylgir músinni"
+  },
+  "pl": {
+    "name": "Polski",
+    "ignore": "Bez śledzenia",
+    "mouseFollowsVoiceOver": "Mysz podąża za VoiceOver",
+    "voiceOverFollowsMouse": "VoiceOver podąża za myszą"
+  },
+  "cs": {
+    "name": "Čeština",
+    "ignore": "Bez sledování",
+    "mouseFollowsVoiceOver": "Myš sleduje VoiceOver",
+    "voiceOverFollowsMouse": "VoiceOver sleduje myš"
+  },
+  "sk": {
+    "name": "Slovenčina",
+    "ignore": "Bez sledovania",
+    "mouseFollowsVoiceOver": "Myš sleduje VoiceOver",
+    "voiceOverFollowsMouse": "VoiceOver sleduje myš"
+  },
+  "hu": {
+    "name": "Magyar",
+    "ignore": "Nincs követés",
+    "mouseFollowsVoiceOver": "Az egér követi a VoiceOvert",
+    "voiceOverFollowsMouse": "A VoiceOver követi az egeret"
+  },
+  "ro": {
+    "name": "Română",
+    "ignore": "Fără urmărire",
+    "mouseFollowsVoiceOver": "Mouse-ul urmărește VoiceOver",
+    "voiceOverFollowsMouse": "VoiceOver urmărește mouse-ul"
+  },
+  "bg": {
+    "name": "Български",
+    "ignore": "Без следване",
+    "mouseFollowsVoiceOver": "Мишката следва VoiceOver",
+    "voiceOverFollowsMouse": "VoiceOver следва мишката"
+  },
+  "ru": {
+    "name": "Русский",
+    "ignore": "Без слежения",
+    "mouseFollowsVoiceOver": "Мышь следует за VoiceOver",
+    "voiceOverFollowsMouse": "VoiceOver следует за мышью"
+  },
+  "uk": {
+    "name": "Українська",
+    "ignore": "Без стеження",
+    "mouseFollowsVoiceOver": "Миша слідує за VoiceOver",
+    "voiceOverFollowsMouse": "VoiceOver слідує за мишею"
+  },
+  "hr": {
+    "name": "Hrvatski",
+    "ignore": "Bez praćenja",
+    "mouseFollowsVoiceOver": "Miš prati VoiceOver",
+    "voiceOverFollowsMouse": "VoiceOver prati miš"
+  },
+  "sl": {
+    "name": "Slovenščina",
+    "ignore": "Brez sledenja",
+    "mouseFollowsVoiceOver": "Miška sledi VoiceOverju",
+    "voiceOverFollowsMouse": "VoiceOver sledi miški"
+  },
+  "sq": {
+    "name": "Shqip",
+    "ignore": "Pa ndjekje",
+    "mouseFollowsVoiceOver": "Miu ndjek VoiceOver",
+    "voiceOverFollowsMouse": "VoiceOver ndjek miun"
+  },
+  "el": {
+    "name": "Ελληνικά",
+    "ignore": "Χωρίς παρακολούθηση",
+    "mouseFollowsVoiceOver": "Το ποντίκι ακολουθεί το VoiceOver",
+    "voiceOverFollowsMouse": "Το VoiceOver ακολουθεί το ποντίκι"
+  },
+  "tr": {
+    "name": "Türkçe",
+    "ignore": "Takip kapalı",
+    "mouseFollowsVoiceOver": "Fare VoiceOver’ı takip eder",
+    "voiceOverFollowsMouse": "VoiceOver fareyi takip eder"
+  },
+  "ca": {
+    "name": "Català",
+    "ignore": "Sense seguiment",
+    "mouseFollowsVoiceOver": "El ratolí segueix VoiceOver",
+    "voiceOverFollowsMouse": "VoiceOver segueix el ratolí"
+  },
+  "eu": {
+    "name": "Euskara",
+    "ignore": "Jarraipenik ez",
+    "mouseFollowsVoiceOver": "Saguak VoiceOver jarraitzen du",
+    "voiceOverFollowsMouse": "VoiceOver-ek sagua jarraitzen du"
+  },
+  "gl": {
+    "name": "Galego",
+    "ignore": "Sen seguimento",
+    "mouseFollowsVoiceOver": "O rato segue a VoiceOver",
+    "voiceOverFollowsMouse": "VoiceOver segue o rato"
+  },
+  "lt": {
+    "name": "Lietuvių",
+    "ignore": "Sekimas išjungtas",
+    "mouseFollowsVoiceOver": "Pelė seka VoiceOver",
+    "voiceOverFollowsMouse": "VoiceOver seka pelę"
+  },
+  "lv": {
+    "name": "Latviešu",
+    "ignore": "Sekošana izslēgta",
+    "mouseFollowsVoiceOver": "Pele seko VoiceOver",
+    "voiceOverFollowsMouse": "VoiceOver seko pelei"
+  },
+  "et": {
+    "name": "Eesti",
+    "ignore": "Jälgimine väljas",
+    "mouseFollowsVoiceOver": "Hiir järgib VoiceOverit",
+    "voiceOverFollowsMouse": "VoiceOver järgib hiirt"
+  },
+  "ar": {
+    "name": "العربية",
+    "ignore": "بلا تتبّع",
+    "mouseFollowsVoiceOver": "الماوس يتبع VoiceOver",
+    "voiceOverFollowsMouse": "VoiceOver يتبع الماوس"
+  },
+  "he": {
+    "name": "עברית",
+    "ignore": "ללא מעקב",
+    "mouseFollowsVoiceOver": "העכבר עוקב אחר VoiceOver",
+    "voiceOverFollowsMouse": "VoiceOver עוקב אחר העכבר"
+  },
+  "fa": {
+    "name": "فارسی",
+    "ignore": "بدون دنبال‌کردن",
+    "mouseFollowsVoiceOver": "ماوس VoiceOver را دنبال می‌کند",
+    "voiceOverFollowsMouse": "VoiceOver ماوس را دنبال می‌کند"
+  },
+  "ur": {
+    "name": "اردو",
+    "ignore": "پیروی بند",
+    "mouseFollowsVoiceOver": "ماؤس VoiceOver کی پیروی کرتا ہے",
+    "voiceOverFollowsMouse": "VoiceOver ماؤس کی پیروی کرتا ہے"
+  },
+  "hi": {
+    "name": "हिन्दी",
+    "ignore": "अनुसरण बंद",
+    "mouseFollowsVoiceOver": "माउस VoiceOver का अनुसरण करता है",
+    "voiceOverFollowsMouse": "VoiceOver माउस का अनुसरण करता है"
+  },
+  "bn": {
+    "name": "বাংলা",
+    "ignore": "অনুসরণ বন্ধ",
+    "mouseFollowsVoiceOver": "মাউস VoiceOver অনুসরণ করে",
+    "voiceOverFollowsMouse": "VoiceOver মাউস অনুসরণ করে"
+  },
+  "as": {
+    "name": "অসমীয়া",
+    "ignore": "অনুসৰণ বন্ধ",
+    "mouseFollowsVoiceOver": "মাউছে VoiceOver অনুসৰণ কৰে",
+    "voiceOverFollowsMouse": "VoiceOver-এ মাউছ অনুসৰণ কৰে"
+  },
+  "gu": {
+    "name": "ગુજરાતી",
+    "ignore": "અનુસરણ બંધ",
+    "mouseFollowsVoiceOver": "માઉસ VoiceOver ને અનુસરે છે",
+    "voiceOverFollowsMouse": "VoiceOver માઉસને અનુસરે છે"
+  },
+  "mr": {
+    "name": "मराठी",
+    "ignore": "अनुसरण बंद",
+    "mouseFollowsVoiceOver": "माऊस VoiceOver चे अनुसरण करतो",
+    "voiceOverFollowsMouse": "VoiceOver माऊसचे अनुसरण करतो"
+  },
+  "kn": {
+    "name": "ಕನ್ನಡ",
+    "ignore": "ಅನುಸರಣೆ ಇಲ್ಲ",
+    "mouseFollowsVoiceOver": "ಮೌಸ್ VoiceOver ಅನ್ನು ಅನುಸರಿಸುತ್ತದೆ",
+    "voiceOverFollowsMouse": "VoiceOver ಮೌಸ್ ಅನ್ನು ಅನುಸರಿಸುತ್ತದೆ"
+  },
+  "ml": {
+    "name": "മലയാളം",
+    "ignore": "പിന്തുടരൽ ഇല്ല",
+    "mouseFollowsVoiceOver": "മൗസ് VoiceOver-നെ പിന്തുടരുന്നു",
+    "voiceOverFollowsMouse": "VoiceOver മൗസിനെ പിന്തുടരുന്നു"
+  },
+  "ta": {
+    "name": "தமிழ்",
+    "ignore": "பின்தொடர்தல் இல்லை",
+    "mouseFollowsVoiceOver": "மவுஸ் VoiceOver-ஐப் பின்தொடரும்",
+    "voiceOverFollowsMouse": "VoiceOver மவுஸைப் பின்தொடரும்"
+  },
+  "te": {
+    "name": "తెలుగు",
+    "ignore": "అనుసరణ లేదు",
+    "mouseFollowsVoiceOver": "మౌస్ VoiceOverని అనుసరిస్తుంది",
+    "voiceOverFollowsMouse": "VoiceOver మౌస్‌ను అనుసరిస్తుంది"
+  },
+  "pa": {
+    "name": "ਪੰਜਾਬੀ",
+    "ignore": "ਪਿੱਛਾ ਕਰਨਾ ਬੰਦ",
+    "mouseFollowsVoiceOver": "ਮਾਊਸ VoiceOver ਦਾ ਪਿੱਛਾ ਕਰਦਾ ਹੈ",
+    "voiceOverFollowsMouse": "VoiceOver ਮਾਊਸ ਦਾ ਪਿੱਛਾ ਕਰਦਾ ਹੈ"
+  },
+  "or": {
+    "name": "ଓଡ଼ିଆ",
+    "ignore": "ଅନୁସରଣ ବନ୍ଦ",
+    "mouseFollowsVoiceOver": "ମାଉସ୍ VoiceOverକୁ ଅନୁସରଣ କରେ",
+    "voiceOverFollowsMouse": "VoiceOver ମାଉସ୍‌କୁ ଅନୁସରଣ କରେ"
+  },
+  "ne": {
+    "name": "नेपाली",
+    "ignore": "पछ्याउने बन्द",
+    "mouseFollowsVoiceOver": "माउसले VoiceOver लाई पछ्याउँछ",
+    "voiceOverFollowsMouse": "VoiceOver ले माउसलाई पछ्याउँछ"
+  },
+  "kk": {
+    "name": "Қазақша",
+    "ignore": "Ілесу өшірулі",
+    "mouseFollowsVoiceOver": "Тінтуір VoiceOver-ге ілеседі",
+    "voiceOverFollowsMouse": "VoiceOver тінтуірге ілеседі"
+  },
+  "id": {
+    "name": "Bahasa Indonesia",
+    "ignore": "Tidak mengikuti",
+    "mouseFollowsVoiceOver": "Mouse mengikuti VoiceOver",
+    "voiceOverFollowsMouse": "VoiceOver mengikuti mouse"
+  },
+  "ms": {
+    "name": "Bahasa Melayu",
+    "ignore": "Tidak mengikuti",
+    "mouseFollowsVoiceOver": "Tetikus mengikuti VoiceOver",
+    "voiceOverFollowsMouse": "VoiceOver mengikuti tetikus"
+  },
+  "vi": {
+    "name": "Tiếng Việt",
+    "ignore": "Không theo dõi",
+    "mouseFollowsVoiceOver": "Chuột đi theo VoiceOver",
+    "voiceOverFollowsMouse": "VoiceOver đi theo chuột"
+  },
+  "th": {
+    "name": "ไทย",
+    "ignore": "ไม่ติดตาม",
+    "mouseFollowsVoiceOver": "เมาส์ติดตาม VoiceOver",
+    "voiceOverFollowsMouse": "VoiceOver ติดตามเมาส์"
+  }
+}

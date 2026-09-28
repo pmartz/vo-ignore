@@ -15,6 +15,20 @@ It then synchronizes the preferences so that live VoiceOver state matches stored
 
 After changing the setting, vo-ignore announces “Mouse set to ignores.” using AVFoundation. Speech uses the current assistive-technology speech settings, so the voice and rate should match VoiceOver rather than the macOS default speech voice.
 
+## Optional three-mode application
+
+[VoiceOverMouseCycle](VoiceOverMouseCycle/README.md) is an optional native App
+for users who want to cycle all three mouse tracking modes directly from a
+VoiceOver Open Application command. It adds short VoiceOver output, localized
+feedback, permission guidance, and a 10-second process-reuse interval. The
+original deterministic `vo-ignore` command and its installation remain unchanged.
+
+See the companion's [detailed change notes](VoiceOverMouseCycle/Docs/Changes.md),
+[usage and build guide](VoiceOverMouseCycle/README.md), and
+[validation limits](VoiceOverMouseCycle/Docs/Validation.md). The companion has
+been investigated on macOS 26.6 and still requires macOS 27 runtime validation;
+the original utility's compatibility statement below does not cover it.
+
 ## Building
 
 With Apple's Xcode Command Line Tools installed, build from the project directory:

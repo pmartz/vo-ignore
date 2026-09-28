@@ -1,0 +1,51 @@
+VoiceOverMouseCycle
+
+Requires Apple silicon and macOS 26 or later. Investigation and local validation
+used macOS 26.6. This companion still needs physical testing on macOS 27.
+It uses private Apple APIs, which may change in future system updates.
+
+INSTALL
+1. Move VoiceOverMouseCycle.app to /Applications.
+2. Keep VoiceOver running and open the App. If the access guide appears, add and
+   enable the App in System Settings > Privacy & Security > Full Disk Access.
+   Run it again after granting access. The guide invocation does not change mode.
+3. For optional speech, double-click Enable Announcements.command and approve
+   the system request to let this App control VoiceOver. The setup command does
+   not change tracking. VoiceOver must also allow AppleScript control.
+4. In VoiceOver Keyboard Commander / custom commands, choose Open Application
+   and select /Applications/VoiceOverMouseCycle.app.
+
+USE
+Each delivered open/reopen advances one step:
+No tracking > Mouse follows VoiceOver > VoiceOver follows mouse > No tracking.
+
+Use the App directly for daily operation, not the authorization script. Rapid
+opens reuse the process and replace outdated feedback that has not yet been
+sent. Every delivered request still advances once. VoiceOver manages speech
+already submitted. After work finishes, the App exits following 10 idle seconds.
+
+Normal operation has no window or Dock icon and does not take keyboard focus,
+open VoiceOver Utility, or restart VoiceOver. The native access guide is the
+only normal-launch exception that intentionally needs interactive focus.
+
+Feedback and access guidance follow system preferred languages, with English
+fallback. They do not follow the VoiceOver voice rotor. Missing speech permission
+does not undo a successful tracking change. Each Mac needs its own permissions.
+
+UPDATES AND CHECKS
+Keep a consistent installed path, bundle identifier, and signing identity.
+A different identity may need new permission grants. The included Signing Status
+file records the packaged App's signature, Gatekeeper assessment, and stapled
+ticket check. Signing and notarization do not grant privacy permissions.
+
+The packaging process requires a valid attached notarization ticket for offline
+Gatekeeper verification. A secure timestamp belongs to the code signature;
+a notarization submission alone is not a stapled ticket.
+
+If behavior seems wrong, test three slow launches and actual cursor movement
+before testing rapid presses. Successful preference readback is not proof of
+correct physical cursor behavior. There are no diagnostic command-line modes.
+
+LICENSE
+MIT. Based on vo-ignore, Copyright (c) 2026 Paul Martz.
+The full notice is included in the App's resources and in the source repository.
